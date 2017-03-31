@@ -20,11 +20,25 @@ class ComposerStaticInitfc0971344025c17ec28503440be1ef23
         ),
     );
 
+    public static $classMap = array (
+        'models\\custom\\Custom' => __DIR__ . '/../..' . '/app/models/custom/Custom.php',
+        'models\\system\\ArrayMana' => __DIR__ . '/../..' . '/app/models/system/ArrayMana.php',
+        'models\\system\\CheckNull' => __DIR__ . '/../..' . '/app/models/system/CheckNull.php',
+        'models\\system\\Database' => __DIR__ . '/../..' . '/app/models/system/Database.php',
+        'models\\system\\DatetimeMana' => __DIR__ . '/../..' . '/app/models/system/DatetimeMana.php',
+        'models\\system\\FileMana' => __DIR__ . '/../..' . '/app/models/system/FileMana.php',
+        'models\\system\\Opendir' => __DIR__ . '/../..' . '/app/models/system/Opendir.php',
+        'models\\system\\PasswordMana' => __DIR__ . '/../..' . '/app/models/system/PasswordMana.php',
+        'models\\system\\StringMana' => __DIR__ . '/../..' . '/app/models/system/StringMana.php',
+        'models\\system\\Systema' => __DIR__ . '/../..' . '/app/models/system/Systema.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInitfc0971344025c17ec28503440be1ef23::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInitfc0971344025c17ec28503440be1ef23::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitfc0971344025c17ec28503440be1ef23::$classMap;
 
         }, null, ClassLoader::class);
     }

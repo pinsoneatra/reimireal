@@ -6,4 +6,14 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'models\\custom\\Custom' => $baseDir . '/app/models/custom/Custom.php',
+    'models\\system\\ArrayMana' => $baseDir . '/app/models/system/ArrayMana.php',
+    'models\\system\\CheckNull' => $baseDir . '/app/models/system/CheckNull.php',
+    'models\\system\\Database' => $baseDir . '/app/models/system/Database.php',
+    'models\\system\\DatetimeMana' => $baseDir . '/app/models/system/DatetimeMana.php',
+    'models\\system\\FileMana' => $baseDir . '/app/models/system/FileMana.php',
+    'models\\system\\Opendir' => $baseDir . '/app/models/system/Opendir.php',
+    'models\\system\\PasswordMana' => $baseDir . '/app/models/system/PasswordMana.php',
+    'models\\system\\StringMana' => $baseDir . '/app/models/system/StringMana.php',
+    'models\\system\\Systema' => $baseDir . '/app/models/system/Systema.php',
 );

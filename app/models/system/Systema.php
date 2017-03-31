@@ -2,15 +2,12 @@
 
 namespace models\system;
 
-use models\db\Db;
-
 class Systema {
 
     private $conn;
 
     public function __construct() {
-        $db = new Db();
-        $this->conn = $db->DbConnect();
+
     }
 
     public function redirect_to($new_location) {
