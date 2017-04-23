@@ -21,16 +21,24 @@ class ComposerStaticInitfc0971344025c17ec28503440be1ef23
     );
 
     public static $classMap = array (
-        'models\\custom\\Custom' => __DIR__ . '/../..' . '/app/models/custom/Custom.php',
-        'models\\system\\ArrayMana' => __DIR__ . '/../..' . '/app/models/system/ArrayMana.php',
-        'models\\system\\CheckNull' => __DIR__ . '/../..' . '/app/models/system/CheckNull.php',
+        'models\\arraytype\\ArrayMana' => __DIR__ . '/../..' . '/app/models/arraytype/ArrayMana.php',
+        'models\\custom\\CustomClass' => __DIR__ . '/../..' . '/app/models/custom/CustomClass.php',
+        'models\\datetime\\DatetimeMana' => __DIR__ . '/../..' . '/app/models/datetime/DatetimeMana.php',
+        'models\\directory\\FileMana' => __DIR__ . '/../..' . '/app/models/directory/FileMana.php',
+        'models\\directory\\Opendir' => __DIR__ . '/../..' . '/app/models/directory/Opendir.php',
+        'models\\mail\\MailSend' => __DIR__ . '/../..' . '/app/models/mail/MailSend.php',
+        'models\\member\\Autologin' => __DIR__ . '/../..' . '/app/models/member/Autologin.php',
+        'models\\member\\LoginUser' => __DIR__ . '/../..' . '/app/models/member/LoginUser.php',
+        'models\\member\\SignupUser' => __DIR__ . '/../..' . '/app/models/member/SignupUser.php',
+        'models\\member\\UserMana' => __DIR__ . '/../..' . '/app/models/member/UserMana.php',
+        'models\\password\\PasswordMana' => __DIR__ . '/../..' . '/app/models/password/PasswordMana.php',
+        'models\\report\\ReportMana' => __DIR__ . '/../..' . '/app/models/report/ReportMana.php',
+        'models\\session\\Session' => __DIR__ . '/../..' . '/app/models/session/Session.php',
+        'models\\stringtype\\PregMatch' => __DIR__ . '/../..' . '/app/models/stringtype/PregMatch.php',
+        'models\\stringtype\\StringMana' => __DIR__ . '/../..' . '/app/models/stringtype/StringMana.php',
         'models\\system\\Database' => __DIR__ . '/../..' . '/app/models/system/Database.php',
-        'models\\system\\DatetimeMana' => __DIR__ . '/../..' . '/app/models/system/DatetimeMana.php',
-        'models\\system\\FileMana' => __DIR__ . '/../..' . '/app/models/system/FileMana.php',
-        'models\\system\\Opendir' => __DIR__ . '/../..' . '/app/models/system/Opendir.php',
-        'models\\system\\PasswordMana' => __DIR__ . '/../..' . '/app/models/system/PasswordMana.php',
-        'models\\system\\StringMana' => __DIR__ . '/../..' . '/app/models/system/StringMana.php',
         'models\\system\\Systema' => __DIR__ . '/../..' . '/app/models/system/Systema.php',
+        'models\\validation\\CheckNull' => __DIR__ . '/../..' . '/app/models/validation/CheckNull.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

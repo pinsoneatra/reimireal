@@ -1,5 +1,5 @@
 <?php
-namespace models\system;
+namespace models\arraytype;
 
 class ArrayMana {
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace models\system;
+namespace models\directory;
 
 class FileMana {
 

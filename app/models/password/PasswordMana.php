@@ -1,6 +1,6 @@
 <?php
 
-namespace models\system;
+namespace models\password;
 
 class PasswordMana {
 

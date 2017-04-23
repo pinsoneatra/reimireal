@@ -6,7 +6,7 @@
  * 
  */
 
-namespace models\system;
+namespace models\validation;
 
 class CheckNull {
     
